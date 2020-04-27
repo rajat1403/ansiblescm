@@ -1,7 +1,0 @@
----
-- hosts: all
-  tasks:
-    - name: Content Update
-      copy:
-        dest: /tmp/abc
-        content: "Copy content test successfull using Ansible Tower.\n"
